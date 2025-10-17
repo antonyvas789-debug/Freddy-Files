@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: #0D0D0D;
+}
+.navbar{
+    background-image: url(../img/c678d91af74887360b992567a84c77f1739a4a1bdf8493f1.avif);
+    background-position-y: 350px;
+    background-position-x: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+    color: yellow;
+    justify-content: center;
+    gap: 80px;
+}
+.nav-logo span{
+    font-family: 'Nosifer';
+    display: inline-block;
+    transform: scaleX(1.4);
+    text-shadow: 0 0 10px black;
+    margin-left: 10px;
+}
+.nav-logo img{
+    height: 90px;
+}
+.hero{
+    background: url(../img/Five-Nights_Banner.webp);
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 8.4rem;
+    text-align: center;
+    font-size: 80px;
+    color: #425815;
+    text-shadow: 5px 5px 0 #23290e;
+    font-family: 'Creepster';
+}
+
+.titulo{
+    width: 80%;
+    height: 150px;
+    border: 5px solid black;
+    border-radius: 2rem;
+    background-image: url(../img/estatica.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.titulo h2{
+    text-shadow: 3px 3px 0 rgb(204, 204, 3);
+    color: rgba(255, 0, 0, 0.815);
+    font-size: 60px;
+    font-family: 'Nosifer', cursive;
+}
+.bloque{
+    display: flex;
+    width: 90%;
+    height: 50%;
+    margin: 50px auto;
+    border: 4px solid rgb(92, 46, 145);
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+}
+.grande{
+    flex: 2;                      /* Ocupa más espacio que la parte derecha */
+    padding: 20px;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    font-size: 35px;
+    color: red;
+}
+.grande p{
+    margin-top: 5px;
+}
+.pequeño{
+    flex: 1;                      /* Ocupa menos espacio */
+    display: flex;
+    flex-direction: column;       /* Apila los dos bloques pequeños */
+    justify-content: space-between;
+}
+.pequeño1, .pequeño2{
+    height: 50%;                  /* Cada uno ocupa casi la mitad */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pequeño3{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pequeño1 img{
+    border-top-right-radius: 2rem;
+    width: 100%;
+    height: 100%;
+}
+.pequeño2 img{
+    width: 90%;
+    height: 90%;
+}
+.pequeño3 img{
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
